@@ -1,0 +1,1 @@
+{"books":[{"quantity":48,"accessLevel":0,"year":2022,"author":"Robert H.","isbn":"812735162","genre":"Science","title":"Geniology of Mind"}],"users":[{"password":"Admin","accessLevel":1,"borrowedBooks":[],"name":"Admin","id":"000","group":"001"},{"password":"1234","accessLevel":0,"borrowedBooks":[],"name":"Tim","id":"001","group":"002"}]}

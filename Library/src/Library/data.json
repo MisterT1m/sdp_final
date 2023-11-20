@@ -1,0 +1,58 @@
+{
+  "books": [
+    {
+      "quantity": 48,
+      "accessLevel": 0,
+      "year": 2022,
+      "author": "Robert H.",
+      "isbn": "812735162",
+      "genre": "Science",
+      "title": "Geniology of Mind"
+    },
+    {
+      "quantity": 9,
+      "accessLevel": 1,
+      "year": 2009,
+      "author": "Kevin",
+      "isbn": "2222",
+      "genre": "Fantazy",
+      "title": "Avatar"
+    }
+  ],
+  "users": [
+    {
+      "password": "Admin",
+      "accessLevel": 1,
+      "borrowedBooks": [],
+      "name": "Admin",
+      "id": "000",
+      "group": "001"
+    },
+    {
+      "password": "1234",
+      "accessLevel": 0,
+      "borrowedBooks": [
+        {
+          "quantity": 1,
+          "accessLevel": 1,
+          "year": 2009,
+          "author": "Kevin",
+          "isbn": "2222",
+          "genre": "Fantazy",
+          "title": "Avatar"
+        }
+      ],
+      "name": "Tim",
+      "id": "001",
+      "group": "002"
+    },
+    {
+      "password": "1234",
+      "accessLevel": 0,
+      "borrowedBooks": [],
+      "name": "Rimuru",
+      "id": "008",
+      "group": "2222"
+    }
+  ]
+}
