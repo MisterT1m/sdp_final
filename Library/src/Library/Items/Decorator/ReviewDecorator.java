@@ -15,36 +15,36 @@ public class ReviewDecorator extends BookDecorator {
 
     @Override
     public String getTitle() {
-        throw new UnsupportedOperationException("Unimplemented method 'getTitle'");
+        throw new UnsupportedOperationException("Um'getTitle'");
     }
 
     @Override
     public String getIsbn() {
-        throw new UnsupportedOperationException("Unimplemented method 'getIsbn'");
+        throw new UnsupportedOperationException("Um 'getIsbn'");
     }
 
     @Override
     public String getGenre() {
-        throw new UnsupportedOperationException("Unimplemented method 'getGenre'");
+        throw new UnsupportedOperationException("Um 'getGenre'");
     }
 
     @Override
     public String getAuthor() {
-        throw new UnsupportedOperationException("Unimplemented method 'getAuthor'");
+        throw new UnsupportedOperationException("Um 'getAuthor'");
     }
 
     @Override
     public Integer getYear() {
-        throw new UnsupportedOperationException("Unimplemented method 'getYear'");
+        throw new UnsupportedOperationException("Um 'getYear'");
     }
 
     @Override
     public Integer getQuantity() {
-        throw new UnsupportedOperationException("Unimplemented method 'getQuantity'");
+        throw new UnsupportedOperationException("Um 'getQuantity'");
     }
 
     @Override
     public Integer getAccessLevel() {
-        throw new UnsupportedOperationException("Unimplemented method 'getAccessLevel'");
+        throw new UnsupportedOperationException("Um 'getAccessLevel'");
     }
 }

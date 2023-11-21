@@ -22,6 +22,7 @@ public class DataBase {
     private ArrayList<User> users;
     private ArrayList<Book> books;
     private String filepath;
+    private static DataBase instance;
 
     public DataBase(String filepath) {
         this.users = new ArrayList<>();
@@ -32,6 +33,14 @@ public class DataBase {
         } catch (Exception e) {
             System.out.println(e);
         }
+    }
+    
+    // Static method to get the instance
+    public static DataBase getInstance(String filePath) {
+        if (instance == null) {
+            instance = new DataBase(filePath);
+        }
+        return instance;
     }
 
     public void loadData() throws ParseException, FileNotFoundException, IOException {

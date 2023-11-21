@@ -17,6 +17,15 @@
       "isbn": "2222",
       "genre": "Fantazy",
       "title": "Avatar"
+    },
+    {
+      "quantity": 3,
+      "accessLevel": 0,
+      "year": 2023,
+      "author": "Milly",
+      "isbn": "2222",
+      "genre": "Racing",
+      "title": "Ratatatata"
     }
   ],
   "users": [
